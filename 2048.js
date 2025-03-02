@@ -50,7 +50,7 @@ function hasEmptyTile(){
 
 function setTwo(){
 
-    if(!hasEmptyTile){
+    if(!hasEmptyTile()){
         return;
     }
 
